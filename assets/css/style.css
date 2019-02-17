@@ -1,0 +1,414 @@
+
+header {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+header .headerBar {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.headerBar {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+.profileName, .navbar {
+		display: inline-block;
+		vertical-align: middle;
+
+
+}
+
+html,body {	
+	background: white url("https://static.vecteezy.com/system/resources/previews/000/139/911/non_2x/vector-grey-gradient-abstract-background.jpg") repeat 0 0;   
+	height: 100%;
+	margin: 0;
+
+ }
+
+ 
+.profileName {
+	width: 100%;
+
+}
+
+.textcontent {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.04em;
+	background-color:lightgray;
+	color:rgb(100, 66, 25) ;
+	padding: 1em;
+	width: auto;
+} 
+
+.textcontent:hover{
+	color: black;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+li {
+  margin-top: 0;
+	margin-bottom: 1rem;
+	text-align: justify;
+}
+
+.navbar {
+	width:100%;
+	text-align: right;
+	color: #777777;
+		font-weight: normal;
+		margin-top: 40px;
+    
+}
+
+
+.navbar ul li {
+	display: inline-block;
+
+}
+
+.navbar ul li a {
+
+	color:#777777;
+	text-decoration: none;
+	-webkit-transition: color .5s;
+	transition: color .5s;
+}
+
+
+li.menubar {
+	border-right: .01em solid #dddddd;
+	padding: 2%;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+main {
+	width: 960px;
+	clear: both;
+	margin: 0 auto 6em auto;
+}
+.mainheader{
+    color:rgb(100, 66, 25)  ; 
+}
+.topic{
+	padding-left: 3%;
+	margin-top: 1em;
+}
+
+
+.info{
+	background-color: #ffffff;
+	height: auto;
+	border-bottom: 2px solid #dddddd; 
+	border-right: 2px solid #dddddd; 
+	border-left: 2px solid #dddddd; 
+	width: 960px;
+}
+
+.about {
+	display: inline-block;
+	width: 960px;
+	margin-top: 40px;
+	background-color:lightgray;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	border-top: 2px solid #dddddd; 
+	border-right: 2px solid #dddddd; 
+	border-left: 2px solid #dddddd; 
+	
+}
+
+.about h1 {
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.about p {
+	font-size: 18px;
+	line-height: 1.5em;  
+}
+.subinfo{
+    margin-block-start: 0em;
+}
+p{
+    margin-inline-start: 1em;
+	margin-inline-end: 1em;
+	padding: 1em;
+	color:#777777;
+}
+
+
+img.pic {
+	float: left;
+	padding: 0 1em 1em 0;
+	width: 200px;
+	height: 250px;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+	color: rgb(210,210,210);
+	background-color:#666666;
+	border-top: 8px solid lightgray;
+}
+
+
+.port_box{
+	margin-top: -16px;
+	display: grid;
+	background: white ;
+	 padding-block-end: 2em;
+	 grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		grid-gap: 30px;
+		padding-right: 4%;
+}
+
+.port-unit{
+	 text-align: center;
+	 padding: 20px;
+	 width: 150px;
+	 height: 200px;
+
+}
+
+.grid-text {
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	top: -100px;
+	color: #ffffff;
+	width: 210px;
+	margin-left: 16px;
+	text-decoration: none;
+
+
+  }
+
+
+
+.pic_port{
+	width: 250px;
+	height: 200px;
+	padding: 1em;
+
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+
+  textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+	
+  }
+
+  input[type=button] {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+
+	
+  }
+
+.name_textbox, .email_textbox, .message_textbox{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.first_item{
+	padding-top: 24px;
+}
+
+  .ct_txt{
+	color: #777777;
+	padding: 4px;
+	padding-top: 8px;
+	padding-left: 3%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	
+  }
+
+  .button{
+	padding-left: 3%;
+	padding-top: 8px;
+	padding-bottom:1em;
+  }
+
+  .button input[type="submit"]{
+	background-color: darkgrey;
+	color: white;
+	border: none;
+	width: auto;
+	padding: 1em 2em;
+	font-size: 1em;
+  }
+
+
+@media screen and (max-width:  1020px) {
+	.headerBar,.about, .info {			
+		padding-left: 2%;
+		padding-right: 3%;
+	}
+	main{
+		padding-left: 2%;
+		width: 96%;
+	}
+}
+@media screen and (max-width:  980px) {
+	.headerBar,.about, .info {			
+		padding-left: 2%;
+		padding-right: 3%;
+	}
+	main{
+		padding-left: 2%;
+		width: 96%;
+	}
+
+	.port_box{
+		display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		grid-gap: 30px;
+		padding-right: 4%;
+	}
+}
+
+
+@media screen and (max-width:  979px) {
+
+	header .headerBar {
+		width: auto;
+		margin: 0 auto;
+		padding-left: 2%;
+		padding-right: 3%;
+	}
+
+
+	main{
+		padding-left: 2%;
+		width: 96%;
+	}
+	.about, .info{
+		padding-right: 2%;
+		width: 96%;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+	header .headerBar {
+		width: auto;
+		margin: 0 auto;
+		padding-left: 2%;
+	}
+
+
+	main{
+		padding-left: 2%;
+		width: 96%;
+	}
+}
+
+.about, .info{
+	padding-right: 2%;
+	width: 96%;
+
+}
+
+@media screen and (max-width:  640px) {
+.headerBar{
+	clear: both;
+	grid-gap: 10px;
+	text-align: center;
+}
+.navbar{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.port_box{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 30px;
+	padding-right: 6%;
+}
+
+}
